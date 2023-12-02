@@ -25,6 +25,16 @@ h2{
     line-height: 50px;
     font-weight:bold;
 }
+h2 sub{
+    color:#aaa;
+    vertical-align: baseline;
+}
+h2 sub::before{
+content:"(";
+}
+h2 sub:after{
+    content:")";
+}
 img{
     border-radius:  50%;
 }
