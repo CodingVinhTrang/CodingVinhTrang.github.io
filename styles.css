@@ -18,12 +18,20 @@ html, body{
 }
 body{
     text-align: center;
+
 }
-h1{
+h2{
     font-size: 36px;
     line-height: 50px;
     font-weight:bold;
 }
 img{
     border-radius:  50%;
+}
+.hero{
+    outline:1px solid red;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
