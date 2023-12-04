@@ -118,3 +118,15 @@ box-shadow: 0px 0px 100px 50px rgb(34, 175, 231),
     text-align:right;
     border-right-width:0;
 }
+
+.prose{
+    text-align:justify;
+    max-width: 500px;
+    margin:0 auto;
+}
+.prose p{
+    margin:20px auto;
+}
+.prose li{
+    list-style-position:inside;
+}
