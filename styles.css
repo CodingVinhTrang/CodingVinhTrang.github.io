@@ -92,13 +92,22 @@ address{
     overflow:hidden;
     margin-left:auto;
     margin-right:auto;
-transition:transform 2s, box-shadow 2s;
-}
+    transition:transform 2s, box-shadow 2s;
+    background-image: url("images/vinhtransform3.jpg");
+    background-size: 100% 100%;
 
+
+}
 .headshot:hover{
-transform:rotate(360deg);
+/*transform:rotate(360deg);*/
 box-shadow: 0px 0px 100px 50px rgb(34, 175, 231),
-            0px 0px 100px 20px #960 inset;
+            0px 0px 100px 20px rgb(109, 211, 202) inset;
+}
+.headshot img{
+    transition:opacity 2s;
+}
+.headshot:hover img{
+    opacity:0;
 }
 
 .list li{
